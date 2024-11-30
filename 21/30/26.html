@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Formulario de validación de correo electrónico</h2>
+
+  <form id="formulario" onsubmit="return validarEmail()">
+    <label for="email">Correo Electrónico:</label>
+    <input type="text" id="email" name="email">
+    <span id="mensajeError" style="color: red; display: none;">Correo electrónico inválido</span>
+    
+<br><br>
+    <button type="submit">Enviar</button>
+  </form>
+  <script src="26.js"></script>
+</body>
+</html>
